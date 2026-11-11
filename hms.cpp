@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS   // lets localtime() compile on Visual Studio
+#define _CRT_SECURE_NO_WARNINGS   
 
 #include <iostream>
 #include <fstream>
@@ -10,7 +10,6 @@
 #include <algorithm>
 #include <optional>
 
-// --- SFML 3 headers -------------------------------------------
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
